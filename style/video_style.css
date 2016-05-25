@@ -219,12 +219,15 @@
 
 
 
-/* SOCIALS
-================================================== */
-/*.socials a {*/
-/*    color:#fff*/
-/*}*/
+/* SOCIALS*/
+/*================================================== */
+.socials a {
+    color:#fff
+}
 
-/*.socials a:hover {*/
-/*    color:#bdc3c7*/
-/*}*/
+.socials a:hover {
+    color:#bdc3c7
+}
+.socials li {
+    display: inline-block;
+}

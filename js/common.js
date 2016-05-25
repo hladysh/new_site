@@ -12,6 +12,12 @@ $(document).ready(function() {
             menu.removeAttr('style');
         }
     })
+    
+    $(".nav a, .top").mPageScroll2id({
+		offset : 10,
+		scrollSpeed : 800
+	});
+    
 });
 
 
