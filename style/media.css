@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+    }
+    .logo img {
+        height: 30px;
+    }
+    .nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        display: none;
+    }
+    .nav li {
+        float: none;
+    }
+    .nav li a {
+        color: #666;
+        border-top: 1px solid #eee;
+        border-left: 3px solid transparent;
+        background: #fff;
+    }
+    .nav li:first-child a {
+        border-top: none;
+    }
+    .nav li a:hover {
+        color: #333;
+        border-left: 3px solid #515572;
+        background: #f0f0f0;
+    }
+    #touch_menu {
+        display: block;
+        float: left;
+        height: 50px;
+        margin: -10px 0;
+    }
+    #search {
+        position: relative;
+        padding-top: 0;
+    }
+    #search input {
+        height: 30px;
+    }
+    #search input[type="text"] {
+        width: 100%;
+        padding-right: 35px;
+    }
+    #search input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30px;
+        text-indent: 999px;
+        overflow: hidden;
+        background: #f1f1f1 url(../img/search.png) no-repeat center;
+    }
+}
+
+@media (max-height: 320px) and (max-width: 768px) {
+    .nav {
+        left: 58px;
+        width: 200px;
+    }
+    .nav li a {
+        padding: 5px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES
+================================================== */
+
+@media screen and (max-width: 768px) {
+.about-section-title {
+    line-height:1
+}
+}
+
+@media screen and (max-width: 480px) {
+.big-background-title {
+    font-size:58px
+}
+
+.small-background-title {
+    line-height:1
+}
+
+/*.player{ display: none;}  -> If you want to remove the video bg on a specific viewport w/o plugin*/
+}
+
+@media screen and (max-width: 360px) {
+.big-background-title,#colorize {
+    line-height:1
+}
+}
+
+@media screen and (max-width: 320px) {
+.small-background-title {
+    font-size:30px
+}
+}
